@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="simon2.css">
+</head>
+<body>
+    
+    <h1>Memory Blocks Game</h1>
+    <h2>Press any Key to Start the Game!</h2>
+
+    <!-- <audio id="sound1" src="piano_sound1.mp3"></audio>
+<audio id="sound2" src="piano_sound2.mp3"></audio>
+<audio id="sound3" src="piano_sound3.mp3"></audio>
+<audio id="sound4" src="piano_sound4.mp3"></audio> -->
+
+<audio id="myAudio">
+    <source src="1.5.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+
+    <div class="btn-container">
+
+        <div class="line-one">
+            
+            <div class="btn red" type="button" id="red" ></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            
+            <div class="btn green" type="button" id="green"></div>
+            <div class="btn purple" type="button" id="purple"></div>
+        </div>
+    </div>
+
+    <script src="simon.js"></script>
+</body>
+</html>
